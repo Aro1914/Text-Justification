@@ -89,7 +89,6 @@ const justify = (words, maxWidth) => {
 
                 justified.push(pad(currentLine, maxWidth));
 
-
                 if ((words.indexOf(nextWord)) == words.length - 1) {
                     currentLine = `${nextWord}`;
                     justified.push(pad(currentLine, maxWidth));
